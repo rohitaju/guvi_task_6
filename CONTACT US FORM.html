@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<style>
+    body{
+        background-color: lightblue;
+        font: Arial;
+        margin:0 ;
+        padding:20px;
+    }
+    form{
+        padding:30px;
+        background-color:white;
+        margin:50px;
+    }
+    h1{
+        font: sans-serif;
+        text-align:center;
+    }
+
+    h4{
+        font: sans-serif;
+        text-align:center;
+    }
+
+    p{
+       text-align:center;
+       font:Cursive;
+       margin:10px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"],
+    input[type="url"],
+    input[type="password"],
+    input[type="date"],
+    input[type="time"],
+    input[type="color"],
+
+    textarea{
+       padding:10px;
+       width:100%;
+    }
+
+
+    button{
+        padding:10px 20px;
+        margin-right:10px;
+        margin-top: 10px;
+    }
+    button[type="submit"]{
+       background-color: lightgreen;
+       color:white;
+    }
+    button[type="reset"]{
+       background-color: red;
+       color:white;
+    }
+
+</style>
+<head>
+
+    <title>CONTACT US</title>
+</head>
+<body>
+<form>
+   <h1> <mark> Feel free to contact us</mark>   </h1>
+   <h4>----------------------------------------------------</h4>
+   <h4>Please Enter your details to contact us</h4>
+   <h4>----------------------------------------------------</h4>
+
+
+    <p class="main">Your Name</p>
+    <input type="text" name="text" required>
+
+    <p>Email</p>
+   <input type="email" name="name" required>
+
+   <p>Choose your country </p>
+
+   <input type="radio" name="country" required > INDIA <br>
+   <input type="radio" name="country" required> UK <br>
+   <input type="radio" name="country" required> USA </br>
+
+   <p>Message:</p>
+   <textarea name="message" rows="4" cols="40" required></textarea><br><br>
+
+    <p>Select Date</p>
+    <input type="date"></br>
+    <p>time you visited the form</p>
+    <input type="time"></br>
+
+    <p>enter your mobile number</p>
+    <input type="tel"></br>
+    <p>enter you company url</p>
+    <input type="url"></br>
+    <p> Select Gender </p>
+    <input type="checkbox">Male</br>
+    <input type="checkbox">Female</br>
+
+    <p>Pick you fav color</p>
+    <input type="color"></br>
+
+    <p>enter new your password</p>
+    <input type="password"></br>
+
+    <button type="reset"> reset  </button>
+    <button type="submit" >SUBMIT </button></br>
+
+
+    <p>HTML & CSS is awesome</p>
+</form>
+</body>
+</html>
+
